@@ -40,9 +40,5 @@ namespace com.companyname.NavigationCodeLab.Fragments
                 Navigation.FindNavController((View)sender).Navigate(Resource.Id.bottom_sheet_dest, null, navOptions);
             };
         }
-        public void OnClick(View v)
-        {
-            Navigation.FindNavController(v).Navigate(Resource.Id.flow_step_one_dest, null);
-        }
     }
 }
